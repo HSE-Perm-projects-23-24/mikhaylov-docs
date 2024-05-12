@@ -22,15 +22,13 @@ Against the background of the mentioned works, the articles of Samokhvalov A.V. 
 
 Contest systems are useful and effective tools for training IT specialists. They provide students with the opportunity to practice programming skills, solve various problems and participate in competitions. However, despite their effectiveness in teaching the basics of programming and algorithmic thinking, contest systems have some limitations. They do not provide students with the context that is present when solving real tasks in a professional environment. In addition, they do not teach students to work within the processes that are usually used in IT companies. Therefore, despite their value, contest systems should be used in combination with other learning methods to ensure a comprehensive training of future IT specialists.
 
-Numerous studies are dedicated to the processes and infrastructure necessary for software development. In her work "Optimal'nyj podhod k razrabotke programmnogo obespecheniya s ispol'zovaniem sovremennyh metodologij i tehnicheskih sredstv" [13], Lazareva N.B. considers the current requirements for the development process and infrastructure. Author emphasizes the importance of using fast and convenient tools for installing, supporting and updating software.
-
 Based on the analysis of existing research, it can be concluded that a large number of works are devoted to the electronic information and educational environment, automatic programming assignment checking systems or individual student software development projects. These works often focus on specific methodologies, technologies and tools. However, the issue of analyzing and modeling the IT infrastructure associated with software development for the training of IT specialists requires further research. Studying this issue is important for providing quality education that will prepare specialists capable of filling the workforce gap in the dynamically evolving IT sector.
 
 ## III RELATED WORKS
 
-The scientific literature presents numerous works dedicated to the description and use of the TOGAF methodology, the Architecture Development Method (ADM), and the ArchiMate modeling language. In particular, the works of A.D. Borremans [14] and A.T. Synbulatova [15] provide a comparison of methodologies such as TOGAF (The Open Group Architecture Framework), Zachman, Gartner, and others. The experience of using the TOGAF methodology for modeling the architecture of an educational organization is described in the works of K.G. Skripkin [16] and A.Yu. Sapozhnikova [17]. V.A. Knyshov [18] considers the ArchiMate modeling language, developed by The Open Group and suitable for use within the TOGAF methodology. As an example of a work that thoroughly describes the practical application of the ADM method, one can note the article "Adaptaciya adm metoda standarta togaf k razrabotke i vnedreniyu arhitekturnyh reshenij v sfere setevogo  FMCG-ritejla" [19] by authors Voronova O.V. and Ilyin I.V. Some works describe the application of TOGAF in the context of educational organizations, including works [17] and [20] and others by a team of authors Kuznetsov A.A., Sapozhnikova A.Yu., Kulikova G.G., considering the processes of digital transformation of universities and enterprises using the TOGAF methodology for the transition to Industry 4.0. The main focus in the team's works is on designing a knowledge management system for joint use by universities and industrial enterprises. 
+The scientific literature presents numerous works dedicated to the description and use of the TOGAF methodology, the Architecture Development Method (ADM), and the ArchiMate modeling language. In particular, the works of A.D. Borremans [13] and A.T. Synbulatova [14] provide a comparison of methodologies such as TOGAF (The Open Group Architecture Framework), Zachman, Gartner, and others. The experience of using the TOGAF methodology for modeling the architecture of an educational organization is described in the works of K.G. Skripkin [15] and A.Yu. Sapozhnikova [16]. V.A. Knyshov [17] considers the ArchiMate modeling language, developed by The Open Group and suitable for use within the TOGAF methodology. As an example of a work that thoroughly describes the practical application of the ADM method, one can note the article "Adaptaciya adm metoda standarta togaf k razrabotke i vnedreniyu arhitekturnyh reshenij v sfere setevogo  FMCG-ritejla" [18] by authors Voronova O.V. and Ilyin I.V. Some works describe the application of TOGAF in the context of educational organizations, including works [16] and [19] and others by a team of authors Kuznetsov A.A., Sapozhnikova A.Yu., Kulikova G.G., considering the processes of digital transformation of universities and enterprises using the TOGAF methodology for the transition to Industry 4.0. The main focus in the team's works is on designing a knowledge management system for joint use by universities and industrial enterprises. 
 
-The work "Arhitekturnye podhody v upravlenii informatizaciej obrazovatel'nogo uchrezhdeniya" [21], authored by N.V. Bradula, is most closely related to the topic of this research. It considers the problem of building the IT infrastructure of an educational institution and choosing methods to align the infrastructure with the real needs of the organization. The work carries out a comparative analysis of architectural approaches to IT management in an educational institution, including the Zachman model, EAP, TOGAF, FEAF, GERAM, and GEAF. The author demonstrates the appropriateness of using the TOGAF architecture for higher education institutions. All these studies confirm the significance of TOGAF and ADM in the context of developing and managing enterprise architecture. They also highlight the flexibility and adaptability of these tools, indicating the possibility of their application in the educational sphere for modeling and developing IT infrastructure intended for practical sessions in the process of training professionals of IT specialties.
+The work "Arhitekturnye podhody v upravlenii informatizaciej obrazovatel'nogo uchrezhdeniya" [20], authored by N.V. Bradula, is most closely related to the topic of this research. It considers the problem of building the IT infrastructure of an educational institution and choosing methods to align the infrastructure with the real needs of the organization. The work carries out a comparative analysis of architectural approaches to IT management in an educational institution, including the Zachman model, EAP, TOGAF, FEAF, GERAM, and GEAF. The author demonstrates the appropriateness of using the TOGAF architecture for higher education institutions. All these studies confirm the significance of TOGAF and ADM in the context of developing and managing enterprise architecture. They also highlight the flexibility and adaptability of these tools, indicating the possibility of their application in the educational sphere for modeling and developing IT infrastructure intended for practical sessions in the process of training professionals of IT specialties.
 
 ## IV SETTING THE TASK
 
@@ -65,13 +63,15 @@ The theoretical base of the research includes articles in scientific journals, c
 
 ## VI IMPLEMENTATION
 
-The modeling and development of the platform for practical sessions were carried out in accordance with the architecture development method of the TOGAF framework. As of now, the latest relevant version of TOGAF is version 10 [22], published in 2022. ArchiMate language was used for modeling, which, like the TOGAF framework, is supported by The Open Group, allowing them to be used together for architecture development. The current relevant version is ArchiMate 3.2 [23], released by The Open Group in 2023.
+The modeling and development of the platform for practical sessions were carried out in accordance with the architecture development method of the TOGAF framework. As of now, the latest relevant version of TOGAF is version 10 [21], published in 2022. ArchiMate language was used for modeling, which, like the TOGAF framework, is supported by The Open Group, allowing them to be used together for architecture development. The current relevant version is ArchiMate 3.2 [22], released by The Open Group in 2023.
 
 Figure 1 demonstrates the capabilities of ArchiMate in relation to the stages of the TOGAF architecture development method. ArchiMate offers a multi-level representation of architecture, which allows modeling the domains defined in TOGAF.
 
 ![Implementation of the architecture development method using the ArchiMate modeling language](https://cdn-images.visual-paradigm.com/guide/togaf/togaf-adm-tutorial/02-togaf-adm.png)
 
-Fig. 1. Implementation of the architecture development method using the ArchiMate modeling language [24]
+Fig. 1. Implementation of the architecture development method using the ArchiMate modeling language [23]
+
+The developing ArchiMate architecture model is hosted on GitHub and is publicly accessible [24]. It is provided in HTML format to enable viewing of the created views using a web browser.
 
 The process of modeling and developing the infrastructure according to the architecture development method was implemented in stages:
 
@@ -93,13 +93,25 @@ In addition, the DevOps methodology, which combines development and operation pr
 
 At this stage, using the motivation extension of the ArchiMate language, modeling of stakeholders, driving forces of changes, business goals, principles, and requirements was  carried out. The results of the analysis of driving forces are presented in the form of assessments. The assessments are grouped into strengths and weaknesses, opportunities and threats, after which a SWOT analysis was conducted, business goals and expected results were formulated.
 
+The stakeholders identified include the teacher, the student, the employer, and the head of the department. The primary driver for change is the quality of student preparation, with the goal of the changes being to enhance this quality.
+
 ### C. Phase B: Business Architecture
 
 At this stage, the internal structure of the organization was modeled, and the competencies, authority, and responsibility of employees were identified. Analysis and modeling of existing business processes were carried out with decomposition from the level of the educational process as a whole to the level of performing tasks in seminar classes on the considered discipline.
 
+As a result, model views have been developed from the Organization Viewpoint and the Business Process Cooperation Viewpoint.
+
 ### D. Phase C: System Architecture
 
 At this stage, business process modeling was carried out, taking into account planned changes related to the implementation of the platform for practical classes, as well as modeling of platform components with an illustration of how the components interact with each other and support business processes.
+
+For modeling process support, a view from the Application Usage Viewpoint has been developed. The "Online Algorithm Calculator" web application has been chosen for task execution in an environment closely resembling real software development. This application was created by students of HSE University-Perm as an open project for software product development, which can be used to solve educational tasks in software engineering [25]. The architecture of the application allows for easy expansion of its functionality by adding new algorithms, making it possible to use it for practical assignments in the "Algorithms and Data Structures" course.
+
+### E. Phase D: Technology Architecture
+
+At this stage, the platform infrastructure was designed, and the support of platform components by software and hardware technologies was modeled. Requirements for hardware, network infrastructure, software, and other resources have been defined.
+
+As a result, a model view from the Technology Usage Viewpoint has been developed. The infrastructure includes an organization created on the GitHub service, with a project for task management and a set of repositories for tasks, methodological materials, and the source code of the web application. The GitHub Actions continuous integration service is used for automatic task checking, testing, building, and deploying the web application. For static code analysis, integration of GitHub and Sonar Cloud services is used. A cloud server is used for hosting the web application.
 
 For the designed platform, all previously identified technologies are used:
 - Project management systems - GitHub Issues is used to manage tasks for the discipline. The course is represented as a kanban board, tasks are created as task cards on the project board.
@@ -110,17 +122,19 @@ For the designed platform, all previously identified technologies are used:
 - Continuous integration and delivery systems - with the help of the GitHub Actions service, automatic checking of tasks related to writing program code is organized, and processes of automatic testing, assembly, and deployment of the web application are set up.
 - Virtualization systems - automatic CI/CD processes are performed on virtual machines of the GitHub Actions service.
 
-### E. Phase D: Technology Architecture
-
-At this stage, the platform infrastructure was designed, and the support of platform components by software and hardware technologies was modeled. Requirements for hardware, network infrastructure, software, and other resources have been defined.
-
 ### F. Phase E: Opportunities and Solutions
 
 At this stage, opportunities for platform implementation were identified, and a corresponding project was formed.
 
+As a result, a model view from the Value Stream Viewpoint has been developed, which represents a sequence of actions that create an overall result for a stakeholder. Each stage creates additional value and is supported by corresponding capabilities. Project hosting and system administration capabilities are required to create an organization on the GitHub service, set up the project, and repositories. Infrastructure capabilities, as well as web development and DevOps capabilities, are necessary for the integration of the web application and the setup of automatic task checking. At the stage of integrating the platform into the educational process, support capabilities are important, including training and user support.
+
 ### G. Phase F: Migration Planning
 
-At this stage, architecture implementation plans were developed, resources needed for implementation were identified, and risks associated with the use of IT infrastructure in the educational process were identified:
+At this stage, architecture implementation plans were developed, resources needed for implementation and associated risks were identified. 
+
+A model view from the Resource Map Viewpoint has been developed, illustrating which resources provide capabilities for platform implementation. To illustrate the connection of project stages to those parts of the architecture they implement, and to analyze consistency between project dependencies, a view from the Implementation and Migration Viewpoint has been developed.
+
+The following risks associated with the use of IT infrastructure in the educational process were identified:
 - Data security, including the risk of unauthorized access, data leakage or loss, including personal data of students and teachers, as well as intellectual property.
 - Service unavailability - failures in the operation of the IT infrastructure can seriously disrupt the educational process. This can be caused by technical problems, DDOS-attacks, or insufficient system scalability.
 - Supplier dependence - the risk of dependence on suppliers is a significant factor, especially when using cloud services or other external resources.
@@ -131,6 +145,14 @@ At this stage, architecture implementation plans were developed, resources neede
 ### H. Phase G: Implementation Governance 
 
 At this stage, monitoring and control over the implementation of the platform development and implementation project was carried out.
+
+During the infrastructure setup on the GitHub service, organizations were created for two groups of students taking the course. Repositories for manual tasks and programming tasks were created for the organizations, as well as repositories for auxiliary course materials, such as instructions for working on the platform and setting up the necessary software. A project "Algorithms and Data Structures 23/24" was created in the organization for course task management, and a kanban board was set up to visualize project task cards.
+
+For the integration of the web application, forks of repositories with the source code of the server and client parts of the Online Calculator web application were added into the organization. The process of automatic assembly and updating of deployed web application stands was implemented on a rented cloud server according to the CI/CD scenario using the GitHub Actions service.
+
+During the work on setting up automatic task checking, the functionality of performing auto-tests, code style checking, and static code analysis using the SonarCloud service was implemented.
+
+At the stage of integrating the platform into the educational process, students were added to the organization's members for conducting the course and distributed into teams, necessary materials and introductory tasks for learning to work with the platform were added to the project.
 
 ### I. Phase H: Architecture Change Management
 
@@ -167,15 +189,16 @@ The results of the current work should be considered as the first step in resear
 10. Protasov, S. I. Opyt ispol'zovaniya sistemy upravleniya obucheniem (LMS) i avtomatizirovannyh sistem testirovaniya v prepodavanii disciplin s modul'no-rejtingovoj strukturoj kursa / S. I. Protasov // Obrazovatel'nye tehnologii i obschestvo. – 2017. – Т. 20, № 1. – S. 410-416. – EDN XQZMVH.
 11. Kapitanov, A. I. Primenenie onlajn-platformy YAndeks.Kontest dlya provedeniya kontrol'nyh meropriyatij po programmirovaniyu na yazyke Python / A. I. Kapitanov, I. I. Kapitanova // Molodoj uchenyj goda 2023 : sbornik statej V Mezhdunarodnogo nauchno-issledovatel'skogo konkursa, Penza, 05 marta 2023 goda. – Penza: Nauka i Prosveschenie (IP Gulyaev G.YU.), 2023. – S. 11-13. – EDN FBBEBE.
 12. Larina, YU. A. Provedenie prakticheskih zanyatij po programmirovaniyu s ispol'zovaniem onlajn-platformy YAndeks.Kontest / YU. A. Larina, O. B. Lavrovskaya // Aktual'nye problemy sovershenstvovaniya vysshego obrazovaniya : Tezisy dokladov XВИ Vserossijskoj nauchno-metodicheskoj konferencii, YAroslavl', 28–29 marta 2024 goda. – YAroslavl': Obschestvo s ogranichennoj otvetstvennost'yu “Filigran”, 2024. – S. 341-343. – EDN ACPWMG.
-13. Lazareva, N. B. Optimal'nyj podhod k razrabotke programmnogo obespecheniya s ispol'zovaniem sovremennyh metodologij i tehnicheskih sredstv / N. B. Lazareva // Inzhenernyj vestnik Dona. – 2020. – № 10(70). – S. 54-63.
-14. Borremans, A. D. Metodologii postroeniya biznes-arhitektury predpriyatiya / A. D. Borremans, A. A. Mulishova // Sovremennye voprosy ustojchivogo razvitiya obschestva v epohu transformacionnyh processov : Sbornik materialov В Mezhdunarodnoj nauchno-prakticheskoj konferencii, Moskva, 31 yanvarya 2023 goda. – Moskva: Obschestvo s ogranichennoj otvetstvennost'yu "Izdatel'stvo ALEF", 2023. – S. 171-176.
-15. Synbulatova, A. T. Analiz i sravnenie metodologij po modelirovaniyu arhitektury predpriyatiya / A. T. Synbulatova // Beneficiar. – 2021. – № 90. – S. 28-32.
-16. Skripkin K.G. Vliyanie vneshnej sredy na organizacionnyj dizajn obrazovatel'nogo uchrezhdeniya: instrumenty analiza // Sovremennye informacionnye tehnologii i IT-obrazovanie. 2016. №3-2.URL: https://cyberleninka.ru/article/n/vliyanie-vneshney-sredy-na-organizatsionnyy-dizayn-obrazovatelnogo-uchrezhdeniya-instrumenty-analiza
-17. Sapozhnikov A. YU. Upravlenie znaniyami na primere mashinostroitel'nogo predpriyatiya i VUZa / A. YU. Sapozhnikov, G. G. Kulikov, A. A. Kuznecov, M. V. YUrlov // Vestnik YUzhno-Ural'skogo gosudarstvennogo universiteta. Seriya: Komp'yuternye tehnologii, upravlenie, radioelektronika. – 2022. – T. 22, № 2. – S. 148-157. – DOI 10.14529/ctcr220214.
-18. Knyshov, V. A. Арчимате kak sredstvo opisaniya arhitektury predpriyatiya / V. A. Knyshov, A. V. Svischev // Moya professional'naya kar'era. – 2023. – T. 3, № 48. – S. 24-29.
-19. Voronova O.V., Il'in I.V. ADAPTACIYA ADM METODA STANDARTA TOGAF K RAZRABOTKE I VNEDRENIYU ARHITEKTURNYH REShENIJ V SFERE SETEVOGO  FMCG-RITEJLA // Ekonomika i upravlenie. 2019. №7 (165). URL: https://cyberleninka.ru/article/n/adaptatsiya-adm-metoda-standarta-togaf-k-razrabotke-i-vnedreniyu-arhitekturnyh-resheniy-v-sfere-setevogo-fmcg-riteyla 
-20. Kuznecov Aleksandr Andreevich, Sapozhnikov Aleksej YUr'evich, Kulikov Gennadij Grigor'evich ARHITEKTURA INFORMACIONNOJ PODSISTEMY ORGANIZACII METAMODELI ZNANIJ V PREDMETNO-ORIENTIROVANNOJ PROEKTNOJ OBLASTI (NA PRIMERE OBRAZOVATEL'NO-PROIZVODSTVENNOJ SREDY) // Vestnik UGATU = Vestnik UGATU. 2022. №4 (98). URL: https://cyberleninka.ru/article/n/arhitektura-informatsionnoy-podsistemy-organizatsii-metamodeli-znaniy-v-predmetno-orientirovannoy-proektnoy-oblasti-na-primere
-21. Bradul, N. V. Arhitekturnye podhody v upravlenii informatizaciej obrazovatel'nogo uchrezhdeniya / N. V. Bradul // Menedzher. – 2019. – T. 1, № 1(87). – S. 114-120.
-22. Chto novogo v TOGAF 10? [Elektronnyj resurs] // onlajn-zhurnal “Direktor informacionnoj sluzhby - Vestnik cifrovoj transformacii”, izdatel'stvo "Otkrytye sistemy"  URL: https://cio.osp.ru/articles/010722-Chto-novogo-v-TOGAF-10 
-23. ArchiMate® 3.2 Specification // Oficial'nyj sajt Specifikaciya Archimate ot konsorciuma The Open Group. URL: https://pubs.opengroup.org/architecture/archimate3-doc/
-24. TOGAF ADM Tutorial // Oficial'nyj sajt Visual Paradigm. URL: https://www.visual-paradigm.com/guide/togaf/togaf-adm-tutorial/
+13. Borremans, A. D. Metodologii postroeniya biznes-arhitektury predpriyatiya / A. D. Borremans, A. A. Mulishova // Sovremennye voprosy ustojchivogo razvitiya obschestva v epohu transformacionnyh processov : Sbornik materialov В Mezhdunarodnoj nauchno-prakticheskoj konferencii, Moskva, 31 yanvarya 2023 goda. – Moskva: Obschestvo s ogranichennoj otvetstvennost'yu "Izdatel'stvo ALEF", 2023. – S. 171-176.
+14. Synbulatova, A. T. Analiz i sravnenie metodologij po modelirovaniyu arhitektury predpriyatiya / A. T. Synbulatova // Beneficiar. – 2021. – № 90. – S. 28-32.
+15. Skripkin K.G. Vliyanie vneshnej sredy na organizacionnyj dizajn obrazovatel'nogo uchrezhdeniya: instrumenty analiza // Sovremennye informacionnye tehnologii i IT-obrazovanie. 2016. №3-2.URL: https://cyberleninka.ru/article/n/vliyanie-vneshney-sredy-na-organizatsionnyy-dizayn-obrazovatelnogo-uchrezhdeniya-instrumenty-analiza
+16. Sapozhnikov A. YU. Upravlenie znaniyami na primere mashinostroitel'nogo predpriyatiya i VUZa / A. YU. Sapozhnikov, G. G. Kulikov, A. A. Kuznecov, M. V. YUrlov // Vestnik YUzhno-Ural'skogo gosudarstvennogo universiteta. Seriya: Komp'yuternye tehnologii, upravlenie, radioelektronika. – 2022. – T. 22, № 2. – S. 148-157. – DOI 10.14529/ctcr220214.
+17. Knyshov, V. A. Арчимате kak sredstvo opisaniya arhitektury predpriyatiya / V. A. Knyshov, A. V. Svischev // Moya professional'naya kar'era. – 2023. – T. 3, № 48. – S. 24-29.
+18. Voronova O.V., Il'in I.V. ADAPTACIYA ADM METODA STANDARTA TOGAF K RAZRABOTKE I VNEDRENIYU ARHITEKTURNYH REShENIJ V SFERE SETEVOGO  FMCG-RITEJLA // Ekonomika i upravlenie. 2019. №7 (165). URL: https://cyberleninka.ru/article/n/adaptatsiya-adm-metoda-standarta-togaf-k-razrabotke-i-vnedreniyu-arhitekturnyh-resheniy-v-sfere-setevogo-fmcg-riteyla 
+19. Kuznecov Aleksandr Andreevich, Sapozhnikov Aleksej YUr'evich, Kulikov Gennadij Grigor'evich ARHITEKTURA INFORMACIONNOJ PODSISTEMY ORGANIZACII METAMODELI ZNANIJ V PREDMETNO-ORIENTIROVANNOJ PROEKTNOJ OBLASTI (NA PRIMERE OBRAZOVATEL'NO-PROIZVODSTVENNOJ SREDY) // Vestnik UGATU = Vestnik UGATU. 2022. №4 (98). URL: https://cyberleninka.ru/article/n/arhitektura-informatsionnoy-podsistemy-organizatsii-metamodeli-znaniy-v-predmetno-orientirovannoy-proektnoy-oblasti-na-primere
+20. Bradul, N. V. Arhitekturnye podhody v upravlenii informatizaciej obrazovatel'nogo uchrezhdeniya / N. V. Bradul // Menedzher. – 2019. – T. 1, № 1(87). – S. 114-120.
+21. Chto novogo v TOGAF 10? [Elektronnyj resurs] // onlajn-zhurnal “Direktor informacionnoj sluzhby - Vestnik cifrovoj transformacii”, izdatel'stvo "Otkrytye sistemy"  URL: https://cio.osp.ru/articles/010722-Chto-novogo-v-TOGAF-10 
+22. ArchiMate® 3.2 Specification // Oficial'nyj sajt Specifikaciya Archimate ot konsorciuma The Open Group. URL: https://pubs.opengroup.org/architecture/archimate3-doc/
+23. TOGAF ADM Tutorial // Oficial'nyj sajt Visual Paradigm. URL: https://www.visual-paradigm.com/guide/togaf/togaf-adm-tutorial/
+24. ArchiMate-model of education IT-infrastructure // GitHub Pages free hosting. URL: https://edu-it-infrastructure.github.io/archi/?view=id-7e9c0ae71df44933945985915082f25d
+25. Mihajlov, A.V. Otkrytyj proekt dlya resheniya uchebnyh zadach programmnoj inzhenerii / Mihajlov A. V. // Sbornik materialov II studencheskoj nauchno-prakticheskoj konferencii im. L.L. Lyubimova, Redakcionno-izdatel'skij otdel NIU VSHE – Perm', 2024. – S. 37-43. URL: https://perm.hse.ru/editorial_publishing/Lyubimov_Conference2
